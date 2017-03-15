@@ -1,0 +1,5 @@
+<div class="c-star-rating">
+    <a [title]="rating" *ngFor="let index of range">
+        <i class="glyphicon" [ngClass]="index <= rating ? 'glyphicon-star' : 'glyphicon-star-empty'"></i>
+    </a>
+</div>

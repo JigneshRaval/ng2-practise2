@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+	<head>
+        <base href="/">
+		<title>Deep::APP</title>
+		<!-- css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+        <style>body { padding: 50px; }</style>
+        
+        <!-- load the dependencies -->
+        <script src="dist/lib/shim.min.js"></script>
+        <script src="dist/lib/zone.js"></script>
+        <script src="dist/lib/Reflect.js"></script>
+
+        <!-- load our angular app with systemjs -->
+        <script src="dist/lib/system.src.js"></script>
+        <script src="systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err) { console.error(err); });
+        </script>
+	</head>
+	<body>
+		<aon-app>Loading...</aon-app>
+	</body>
+</html>

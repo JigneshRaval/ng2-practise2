@@ -2,24 +2,39 @@
 <html>
 	<head>
         <base href="/">
-		<title>Deep::APP</title>
+		<title>Angular2 : Components</title>
 		<!-- css -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
         <style>body { padding: 50px; }</style>
         
-        <!-- load the dependencies -->
+        <!-- load the Angular dependencies -->
+
+        <!-- Polyfills for older browsers, we are using TypeScript/ES6 
+         so we need some polyfills for features that are not existent 
+         in some browsers  -->
         <script src="dist/lib/shim.min.js"></script>
         <script src="dist/lib/zone.js"></script>
         <script src="dist/lib/Reflect.js"></script>
 
         <!-- load our angular app with systemjs -->
         <script src="dist/lib/system.src.js"></script>
+
+        <!-- 2. Configure SystemJS 
+         The systemjs.config.js file contains information
+         about the different modules (libraries) that compose the app. 
+         External modules like Angular 2 and modules internal to our 
+         application that will be defined by us.
+        -->
         <script src="systemjs.config.js"></script>
         <script>
+            // import the 'app' module to boostrap the application
             System.import('app').catch(function(err) { console.error(err); });
         </script>
 	</head>
 	<body>
+        
+        <!-- 3. Display the application -->
 		<aon-app>Loading...</aon-app>
+
 	</body>
 </html>

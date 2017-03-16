@@ -36,7 +36,7 @@ gulp.task("copy:libs", () => {
             'node_modules/reflect-metadata/Reflect.js',
             'node_modules/rxjs/bundles/Rx.js',
             'node_modules/zone.js/dist/zone.js',
-        'node_modules/**/@angular/**/bundles/*.umd.js',
+            'node_modules/**/@angular/**/bundles/*.umd.js',
             'node_modules/systemjs/dist/system.src.js',
         ])
         .pipe(gulp.dest("dist/lib"));

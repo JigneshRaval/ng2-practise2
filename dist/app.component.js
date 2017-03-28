@@ -11,7 +11,7 @@ let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
     core_1.Component({
-        selector: 'aon-app',
+        selector: 'my-app',
         template: `
 
     <!-- Aon Header start -->

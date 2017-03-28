@@ -11,6 +11,7 @@ export class ProductListComponent {
 
     public products = [
         new Product(1, "Soap"),
-        new Product(25, " Ice Cream")
+        new Product(25, "Ice Cream"),
+        new Product(27, "Cake 2122")
     ]
 }

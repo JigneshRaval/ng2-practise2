@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'aon-app',
+  selector: 'my-app',
   template: `
 
     <!-- Aon Header start -->

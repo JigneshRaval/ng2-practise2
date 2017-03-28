@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lite & npm run gulp & npm run gulp:watch",
+    "serve": "node server.js",
+    "debug": "node --inspect-brk server.js",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "gulp": "gulp default",
+    "gulp" : "npm run gulp:default & npm run gulp:watch",
+    "gulp:default": "gulp default",
     "gulp:watch": "gulp watch",
     "postinstall": "typings install"
   },

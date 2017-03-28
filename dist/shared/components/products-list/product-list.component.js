@@ -13,7 +13,8 @@ let ProductListComponent = class ProductListComponent {
         this.title = "Product Lists";
         this.products = [
             new product_list_1.Product(1, "Soap"),
-            new product_list_1.Product(25, " Ice Cream")
+            new product_list_1.Product(25, "Ice Cream"),
+            new product_list_1.Product(27, "Cake 2122")
         ];
     }
 };

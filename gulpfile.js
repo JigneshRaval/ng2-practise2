@@ -21,7 +21,7 @@ gulp.task("compile", () => {
  * Copy all resources like HTML,CSS, JS that are not TypeScript files into build directory.
  */
 gulp.task("copy:assets", () => {
-    return gulp.src(["app/**/*", 'index.html', "!**/*.ts"])
+    return gulp.src(["app/**/*", './*.html', './*.css', "!**/*.ts"], { base : './' })
         .pipe(gulp.dest("dist"));
 });
 
@@ -49,7 +49,7 @@ gulp.task('watch', function () {
     gulp.watch(["app/**/*.ts"], ['compile']).on('change', function (e) {
         console.log('TypeScript file ' + e.path + ' has been changed. Compiling.');
     });
-    gulp.watch(["app/**/*.html", "app/**/*.css"], ['copy:assets']).on('change', function (e) {
+    gulp.watch(["app/**/*.html", './*.html', './*.css', "app/**/*.css"], ['copy:assets']).on('change', function (e) {
         console.log('Resource file ' + e.path + ' has been changed. Updating.');
     });
 });

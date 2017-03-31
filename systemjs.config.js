@@ -11,7 +11,7 @@
   // map tells the System loader where to look for things
   var map = {
     'app':                        './dist', // 'dist',
-    'tsconfig.json':				      './tsconfig.json',
+    'tsconfig.json':			  './tsconfig.json',
     '@angular':                   'npm:@angular',
     'angular2-in-memory-web-api': './node_modules/angular2-in-memory-web-api',
     'rxjs':                       './node_modules/rxjs'
@@ -33,6 +33,7 @@
     'router',
     'router-deprecated',
     'upgrade',
+    'material'
   ];
   // Individual files (~300 requests):
   function packIndex(pkgName) {

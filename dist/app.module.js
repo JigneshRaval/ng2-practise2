@@ -14,11 +14,14 @@ const footer_component_1 = require("./footer/footer.component");
 const content_component_1 = require("./content/content.component");
 const rating_component_1 = require("./shared/components/star-rating/rating.component");
 const product_list_component_1 = require("./shared/components/products-list/product-list.component");
+// Angular Material Design
+// https://material.angular.io/
+const material_1 = require("@angular/material");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule, material_1.MaterialModule],
         declarations: [app_component_1.AppComponent, header_component_1.AhHeader, footer_component_1.AhFooter, content_component_1.AhContent, rating_component_1.RatingComponent, product_list_component_1.ProductListComponent],
         bootstrap: [app_component_1.AppComponent]
     })

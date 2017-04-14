@@ -13,7 +13,9 @@
     "gulp": "npm run gulp:default & npm run gulp:watch",
     "gulp:default": "gulp default",
     "gulp:watch": "gulp watch",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "gulp:markdown": "gulp markdown",
+    "markdown": "markdown-it ./docs/up_going/*.md -o *.html"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +24,12 @@
     "concurrently": "^3.4.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-markdown-docs": "^0.1.5",
+    "gulp-markdown-it": "^0.1.1",
     "gulp-typescript": "^3.1.5",
     "lite-server": "^2.2.2",
+    "markdown-it": "^8.3.1",
+    "marked": "^0.3.6",
     "typescript": "^2.2.1",
     "typings": "^2.1.0"
   },

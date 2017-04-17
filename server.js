@@ -7,7 +7,7 @@ http.createServer(function (request, response) {
 
     var filePath = '.' + request.url;
     if (filePath == './')
-        filePath = './dist/demo-app/index.html';
+        filePath = './dist/index.html';
     console.log("File Path :", filePath);
     var extname = path.extname(filePath);
     var contentType = 'text/html';

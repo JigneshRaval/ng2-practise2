@@ -26,6 +26,8 @@ AppComponent = __decorate([
     <ah-footer></ah-footer>
     <!-- Aon Footer end -->
     <product-list></product-list>
+
+    <parent-component1></parent-component1>
   `
     })
 ], AppComponent);

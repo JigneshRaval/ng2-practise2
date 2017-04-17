@@ -14,15 +14,14 @@ const footer_component_1 = require("./footer/footer.component");
 const content_component_1 = require("./content/content.component");
 const rating_component_1 = require("./shared/components/star-rating/rating.component");
 const product_list_component_1 = require("./shared/components/products-list/product-list.component");
-// Angular Material Design
-// https://material.angular.io/
-const material_1 = require("@angular/material");
+const parent_component_1 = require("./shared/components/data-passing/parent.component");
+const child_component_1 = require("./shared/components/data-passing/child.component");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, material_1.MaterialModule],
-        declarations: [app_component_1.AppComponent, header_component_1.AhHeader, footer_component_1.AhFooter, content_component_1.AhContent, rating_component_1.RatingComponent, product_list_component_1.ProductListComponent],
+        imports: [platform_browser_1.BrowserModule],
+        declarations: [app_component_1.AppComponent, header_component_1.AhHeader, footer_component_1.AhFooter, content_component_1.AhContent, rating_component_1.RatingComponent, product_list_component_1.ProductListComponent, parent_component_1.ParentComponent1, child_component_1.ChildComponent1],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

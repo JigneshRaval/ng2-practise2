@@ -16,6 +16,8 @@ import { Component } from '@angular/core';
     <ah-footer></ah-footer>
     <!-- Aon Footer end -->
     <product-list></product-list>
+
+    <parent-component1></parent-component1>
   `
 })
 export class AppComponent {

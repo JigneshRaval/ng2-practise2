@@ -21,6 +21,8 @@ export class ParentComponent1 implements OnInit{
     }
 
     confirmRegister(email: string) {
+
         console.log("Register Email Address is " + email);
+        
     }
 }

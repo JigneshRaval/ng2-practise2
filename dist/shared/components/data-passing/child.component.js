@@ -38,7 +38,6 @@ __decorate([
 ], ChildComponent1.prototype, "emailRegister", void 0);
 ChildComponent1 = __decorate([
     core_1.Component({
-        moduleId: module.id,
         selector: 'child-component1',
         template: `
         <input placeholder="{{emai}}" #emailbox/>

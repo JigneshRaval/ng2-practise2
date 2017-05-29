@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 import { Product } from './product-list';
 
 @Component({
-    moduleId: module.id,
     selector: 'product-list',
-    templateUrl: 'product-list.component.html'
+    templateUrl: './product-list.component.html'
 })
 export class ProductListComponent {
     public title: string = "Product Lists";

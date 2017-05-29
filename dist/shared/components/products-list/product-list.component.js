@@ -20,9 +20,8 @@ let ProductListComponent = class ProductListComponent {
 };
 ProductListComponent = __decorate([
     core_1.Component({
-        moduleId: module.id,
         selector: 'product-list',
-        templateUrl: 'product-list.component.html'
+        templateUrl: './product-list.component.html'
     })
 ], ProductListComponent);
 exports.ProductListComponent = ProductListComponent;

@@ -9,9 +9,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 const platform_browser_1 = require("@angular/platform-browser");
 const app_component_1 = require("./app.component");
-const header_component_1 = require("./header/header.component");
-const footer_component_1 = require("./footer/footer.component");
-const content_component_1 = require("./content/content.component");
 const rating_component_1 = require("./shared/components/star-rating/rating.component");
 const product_list_component_1 = require("./shared/components/products-list/product-list.component");
 // Example 1 : Data passing between components 
@@ -27,7 +24,7 @@ AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],
         declarations: [
-            app_component_1.AppComponent, header_component_1.AhHeader, footer_component_1.AhFooter, content_component_1.AhContent, rating_component_1.RatingComponent, product_list_component_1.ProductListComponent, parent_component_1.ParentComponent1, child_component_1.ChildComponent1,
+            app_component_1.AppComponent, rating_component_1.RatingComponent, product_list_component_1.ProductListComponent, parent_component_1.ParentComponent1, child_component_1.ChildComponent1,
             parent_example2_component_1.RioCounterParentComponent, child_example2_component_1.RioCounterComponent2, child_example3_component_1.RioCounterComponent3
         ],
         bootstrap: [app_component_1.AppComponent]

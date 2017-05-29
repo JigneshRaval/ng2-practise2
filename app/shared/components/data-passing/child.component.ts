@@ -1,7 +1,6 @@
 import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
-    moduleId: module.id,
     selector: 'child-component1',
     template: `
         <input placeholder="{{emai}}" #emailbox/>

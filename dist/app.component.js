@@ -13,18 +13,6 @@ AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
         template: `
-
-    <!-- Aon Header start -->
-    <ah-header></ah-header>
-    <!-- Aon Header end -->
-
-    <!-- Aon Content start -->
-    <ah-content></ah-content>
-    <!-- Aon Content end -->
-
-    <!-- Aon Footer start -->
-    <ah-footer></ah-footer>
-    <!-- Aon Footer end -->
     <product-list></product-list>
     
     <!-- Example 1 : Data passing between components -->

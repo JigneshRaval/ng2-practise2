@@ -21,7 +21,6 @@ let ParentComponent1 = class ParentComponent1 {
 };
 ParentComponent1 = __decorate([
     core_1.Component({
-        moduleId: module.id,
         selector: 'parent-component1',
         template: `
     <div>  

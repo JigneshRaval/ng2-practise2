@@ -15,7 +15,6 @@ let RatingComponent = class RatingComponent {
 };
 RatingComponent = __decorate([
     core_1.Component({
-        moduleId: module.id,
         selector: 'rating-star',
         templateUrl: 'rating.component.html',
         styleUrls: ['rating.component.css']
